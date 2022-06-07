@@ -13,9 +13,9 @@ namespace WebAppTutorial.EntityDAL
 
         }
 
-        DbSet<PersonInfo> Persons { get; set; }
+        public DbSet<PersonInfo> Persons { get; set; }
 
         
-        DbSet<Post> Posts { get; set; }
+        public DbSet<Post> Posts { get; set; }
     }
 }

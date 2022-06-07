@@ -19,7 +19,8 @@ namespace WebAppTutorial.EntityDAL
 
         [ForeignKey("Post")]
         public int PostId { get; set; }
-        
+
+        [ForeignKey("PostId")]
         public Post Post { get; set; }
     }
 }
